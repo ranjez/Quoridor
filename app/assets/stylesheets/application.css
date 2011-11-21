@@ -5,3 +5,11 @@
  *= require_self
  *= require_tree . 
 */
+#board{width:530px; height:530px;}
+.square, .fence {float:left;}
+.square {width:50px; height:50px; background-color: #742;}
+.fence {width:10px; height:50px; background-color: #c75;}
+.fence.selected {background-color: #cc5;}
+.fence.horizontal {height:10px; width:50px; padding:0 5px;}
+.fence.horizontal.left{padding-left:0;}
+.fence.horizontal.right{padding-left:0;}

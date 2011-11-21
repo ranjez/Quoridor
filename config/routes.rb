@@ -1,4 +1,9 @@
 QuoridorRails::Application.routes.draw do
+  resources :moves
+  resources :game
+
+  get "game/is_valid_move"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
