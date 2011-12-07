@@ -1,0 +1,47 @@
+#board {
+	width: 530px;
+	height: 530px;
+	float: left;
+}
+.square, .fence {
+	float: left;
+}
+.square {
+	width: 50px;
+	height: 50px;
+	background-color: #742;
+}
+.fence {
+	width: 10px;
+	height: 50px;
+	background-color: #c75;
+}
+.fence.selected, .fence.placed {
+	background-color: #cc5;
+}
+.fence.horizontal {
+	height: 10px;
+	width: 50px;
+	padding: 0 5px;
+}
+.fence.horizontal.left {
+	padding-left: 0;
+}
+.fence.horizontal.right {
+	padding-left: 0;
+}
+#player_1, #player_2 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+	border-radius: 2em;
+}
+#player_1 {
+	background-color: #fff;
+}
+#player_2 {
+	background-color: #000;
+}
+#info{
+	float:left;
+}
